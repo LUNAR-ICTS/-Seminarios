@@ -26,3 +26,5 @@
 ## 8.8 - Entretenimento
 ## 8.9 - Acessibilidade
 ## 8.10 - Estética
+# 9 - Principal Concorrente do YOLO
+# 10 - Referências
