@@ -1,8 +1,16 @@
 # Roadmap:
 # 0 - O que é uma imagem?
+<div style="display: inline_block" align="center">
+ <img height="200cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting.png?raw=true"/> 
+  
+ <em><b>Figura 1:</b> Pintura Creebet do Minecraft. [<a href="#1-teste-da-ref">1</a>]</em>
+</div>
+
+
+
+
 <details>
   <summary>Matrizes das imagens acima:</summary>
-  
   <p>
 R:
 
@@ -103,3 +111,4 @@ $$
 ## 8.10 - Estética
 # 9 - Principal Concorrente do YOLO
 # 10 - Referências
+#### [1] Teste da ref
