@@ -122,8 +122,15 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 
 </div>
 
-
 ## 2.1 - Treinar com seu próprio Dataset
+
+<div style="display: inline_block" align="center">
+<iframe width="560" height="315" src="https://youtu.be/Zep7m4wSAZU?si=ebkC5gj1Nd2IcSPr" frameborder="0" allowfullscreen></iframe>
+
+
+<em><b>Vídeo 1:</b> Como rotular dataset de detecção no Roboflow. [<a href="roboflow-ref">2</a>]</em>
+</div>
+
 # 3 - Diferença entre Classificação, Classificação com Localização, Deteccção (Segmentação)
 # 4 - O que é o YOLO?
 ## 4.1 - _Output_
@@ -151,4 +158,7 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 <h4 id="1-mojang-ref">[1] Mojang Studios, "Mojang Studios Official Website," [Online]. Available: <a href="https://www.minecraft.net/">https://www.minecraft.net/</a>. Accessed: 2025-03-06.</h4>
 
 <h4 id="2-coco-ref">[2] T.-Y. Lin, M. Maire, S. Belongie, L. Bourdev, R. Girshick, J. Hays, P. Perona, D. Ramanan, C. L. Zitnick, and P. Dollár, "Microsoft COCO: Common Objects in Context," <em>arXiv preprint arXiv:1405.0312</em>, 2015. [Online]. Available: <a href="https://arxiv.org/abs/1405.0312">https://arxiv.org/abs/1405.0312</a></h4>
+
+<h4 id="roboflow-ref">[3] LUNAR - ICTS, "Como rotular dataset de detecção no Roboflow," [Online]. Available: <a href="https://www.youtube.com/watch?v=Zep7m4wSAZU">https://www.youtube.com/watch?v=Zep7m4wSAZU</a>. Accessed: 2025-03-06.</h4>
+
 
