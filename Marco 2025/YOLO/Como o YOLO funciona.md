@@ -116,7 +116,7 @@ O COCO Dataset (_Common Objects in Context_) foi criado para avançar o reconhec
 O COCO Dataset (_Common Objects in Context_) é um conjunto de dados amplamente utilizado em Visão Computacional para detecção, segmentação e legendagem de imagens. Ele contém milhares de imagens anotadas com objetos em diferentes contextos, incluindo bounding boxes, segmentações e descrições textuais, sendo essencial para treinar e avaliar modelos de reconhecimento de objetos e IA.
 
 <div style="display: inline_block" align="center">
-<img height="400cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/coco_dataset.png?raw=true"/> 
+<img hrep = "https://cocodataset.org/#home" height="400cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/coco_dataset.png?raw=true"/> 
 
 <em><b>Figura 1:</b> Coco Dataset. [<a href="#2-coco-ref">2</a>]</em>
 
