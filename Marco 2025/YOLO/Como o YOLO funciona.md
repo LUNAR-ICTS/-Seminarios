@@ -1,9 +1,22 @@
 # Roadmap:
 # 0 - O que é uma imagem?
+
+Uma imagem digital é composta por três canais de cores (Vermelho, Verde e Azul - RGB), cada um representado por uma matriz bidimensional onde os valores indicam a intensidade da cor em cada pixel. A sobreposição dessas matrizes forma uma estrutura tridimensional $(altura, largura, 3)$, permitindo a composição das cores e a exibição da imagem.
+
 <div style="display: inline_block" align="center">
- <img height="200cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting.png?raw=true"/> 
+<img height="200cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting.png?raw=true"/> 
   
- <em><b>Figura 1:</b> Pintura Creebet do Minecraft. [<a href="#1-teste-da-ref">1</a>]</em>
+<em><b>Figura 1:</b> Pintura Creebet do Minecraft. [<a href="#1-teste-da-ref">1</a>]</em>
+</div>
+
+<div style="display: inline_block" align="center">
+<img height="160cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting_R.png?raw=true"/> 
+ 
+<img height="160cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting_G.png?raw=true"/> 
+
+<img height="160cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting_B.png?raw=true"/> 
+  
+<em><b>Figura 2:</b> Canais da Figura 1 separados (Vermelho, Verde e Azul - RGB). </em>
 </div>
 
 
