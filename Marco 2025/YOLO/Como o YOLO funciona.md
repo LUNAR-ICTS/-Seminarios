@@ -129,7 +129,8 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 <em><b>Vídeo 1:</b> Como rotular dataset de detecção no Roboflow. [<a href="roboflow-ref">3</a>]</em>
 </div>
 
-# 3 - Diferença entre Classificação, Classificação com Localização, Deteccção (e Segmentação) [[4]]("cnn-ref")
+# <p> 3 - Diferença entre Classificação, Classificação com Localização, Detecção (e Segmentação) [<a href="#cnn-ref">4</a>]</p>
+
 
 <div style="display: inline_block" align="center">
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig7.png?raw=true"/> 
