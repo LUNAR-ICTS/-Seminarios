@@ -6,7 +6,7 @@ Uma imagem digital é composta por três canais de cores (Vermelho, Verde e Azul
 <div style="display: inline_block" align="center">
 <img height="200cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting.png?raw=true"/> 
 
-<em><b>Figura 1:</b> Pintura Creebet do Minecraft. [<a href="#1-teste-da-ref">1</a>]</em>
+<em><b>Figura 1:</b> Pintura Creebet do Minecraft. [<a href="#1-mojang-ref">2</a>]</em>
 </div>
 
 <div style="display: inline_block" align="center">
@@ -148,6 +148,7 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 ## 7.10 - Estética
 # 8 - Principal Concorrente do YOLO
 # 9 - Referências
-#### [1] Teste da ref
+<h4 id="mojang-ref">[1] Mojang Studios, "Mojang Studios Official Website," [Online]. Available: <a href="https://www.minecraft.net/">https://www.minecraft.net/</a>. Accessed: 2025-03-06.</h4>
+
 <h4 id="2-coco-ref">[2] T.-Y. Lin, M. Maire, S. Belongie, L. Bourdev, R. Girshick, J. Hays, P. Perona, D. Ramanan, C. L. Zitnick, and P. Dollár, "Microsoft COCO: Common Objects in Context," <em>arXiv preprint arXiv:1405.0312</em>, 2015. [Online]. Available: <a href="https://arxiv.org/abs/1405.0312">https://arxiv.org/abs/1405.0312</a></h4>
 
