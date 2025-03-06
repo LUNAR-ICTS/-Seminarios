@@ -124,11 +124,9 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 
 ## 2.1 - Treinar com seu próprio Dataset
 
+[![Assista ao vídeo](https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Thumbnail%20V%C3%ADdeo%20Como%20rotular%20dataset%20de%20detec%C3%A7%C3%A3o%20no%20roboflow.png?raw=true)](https://youtu.be/Zep7m4wSAZU?si=ebkC5gj1Nd2IcSPr)
 <div style="display: inline_block" align="center">
-<iframe width="560" height="315" src="https://youtu.be/Zep7m4wSAZU?si=ebkC5gj1Nd2IcSPr" frameborder="0" allowfullscreen></iframe>
-
-
-<em><b>Vídeo 1:</b> Como rotular dataset de detecção no Roboflow. [<a href="roboflow-ref">2</a>]</em>
+<em><b>Vídeo 1:</b> Como rotular dataset de detecção no Roboflow. [<a href="roboflow-ref">3</a>]</em>
 </div>
 
 # 3 - Diferença entre Classificação, Classificação com Localização, Deteccção (Segmentação)
