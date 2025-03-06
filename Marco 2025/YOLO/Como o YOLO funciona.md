@@ -137,18 +137,26 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 
 <em><b>Figura 7:</b> Clasicação vs Classificação com Localização vs Deteccção. </em>
 
+<div style="display: inline_block" align="center">
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig9.png?raw=true"/> 
+
+<em><b>Figura 8:</b> Segmentação. </em>
+
+</div>
+
+# 4 - O que é o YOLO?
+
+## 4.1 - _Output_
+
 </div>
 
 <div style="display: inline_block" align="center">
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig8.png?raw=true"/> 
 
-<em><b>Figura 7:</b> Output da detecção. </em>
+<em><b>Figura 9:</b> Output simplificado da detecção. </em>
 
 </div>
 
-
-# 4 - O que é o YOLO?
-## 4.1 - _Output_
 ## 4.2 - _Sliding Window_
 ## 4.3 - _Nonmax Suppression_
 ## 4.4 - _Ancher boxes_
