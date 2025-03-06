@@ -140,7 +140,7 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 </div>
 
 <div style="display: inline_block" align="center">
-<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig4.png?raw=true"/> 
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig8.png?raw=true"/> 
 
 <em><b>Figura 7:</b> Output da detecção. </em>
 
