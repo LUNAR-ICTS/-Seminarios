@@ -98,7 +98,7 @@ $$
 
 
 # 1 - Visão Computacional com Aprendizado de Máquina
-O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) foi criado para avançar o reconhecimento de objetos no contexto da compreensão de cenas. Ele contém imagens de cenas do dia a dia, onde os objetos aparecem em seus ambientes naturais, e são rotulados com segmentações por instância para localização precisa. O conjunto de dados inclui 91 tipos de objetos reconhecíveis por crianças de 4 anos, com um total de 2,5 M de instâncias rotuladas em **328 K imagens**. Seu desenvolvimento envolveu trabalhadores crowdsourcing e interfaces inovadoras para detecção e segmentação. 
+A Visão Computacional é um campo da Inteligência Artificial que permite que computadores **aprendam** a interpretar e analisar imagens e vídeos, simulando a percepção visual humana. Utilizando técnicas como processamento de imagens, aprendizado de máquina e redes neurais, a visão computacional pode reconhecer objetos, detectar padrões e extrair informações visuais.
 
 <div style="display: inline_block" align="center">
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig4.png?raw=true"/> 
