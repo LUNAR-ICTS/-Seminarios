@@ -109,7 +109,7 @@ A Visão Computacional é um campo da Inteligência Artificial que permite que c
 <div style="display: inline_block" align="center">
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig5.png?raw=true"/> 
 
-<em><b>Figura 4:</b> Exemplo de Dataset.</em>
+<em><b>Figura 5:</b> Exemplo de Dataset.</em>
 </div>
 
 # 2 - Coco dataset
@@ -118,7 +118,7 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 <div style="display: inline_block" align="center">
 <img hrep = "https://cocodataset.org/#home" height="400cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/coco_dataset.png?raw=true"/> 
 
-<em><b>Figura 1:</b> Coco Dataset. [<a href="#2-coco-ref">2</a>]</em>
+<em><b>Figura 6:</b> Coco Dataset. [<a href="#2-coco-ref">2</a>]</em>
 
 </div>
 
@@ -129,7 +129,15 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 <em><b>Vídeo 1:</b> Como rotular dataset de detecção no Roboflow. [<a href="roboflow-ref">3</a>]</em>
 </div>
 
-# 3 - Diferença entre Classificação, Classificação com Localização, Deteccção (Segmentação)
+# 3 - Diferença entre Classificação, Classificação com Localização, Deteccção (e Segmentação)
+
+<div style="display: inline_block" align="center">
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig7.png?raw=true"/> 
+
+<em><b>Figura 7:</b> Clasicação vs Classificação com Localização vs Deteccção. [<a href="#2-coco-ref">2</a>]</em>
+
+</div>
+
 # 4 - O que é o YOLO?
 ## 4.1 - _Output_
 ## 4.2 - _Sliding Window_
