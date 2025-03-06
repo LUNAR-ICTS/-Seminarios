@@ -87,6 +87,6 @@ plt.xlabel('Width  [# of pixels]')
 #plt.axis('off')
 
 #save
-plt.savefig(r'Marco 2025\YOLO\assets\img\RGB_channels_plot.png')
+#plt.savefig(r'Marco 2025\YOLO\assets\img\RGB_channels_plot.png')
 
 plt.show()
