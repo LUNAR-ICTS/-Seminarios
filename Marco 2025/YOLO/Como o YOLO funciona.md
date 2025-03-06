@@ -5,27 +5,20 @@ Uma imagem digital é composta por três canais de cores (Vermelho, Verde e Azul
 
 <div style="display: inline_block" align="center">
 <img height="200cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting.png?raw=true"/> 
-  
+
 <em><b>Figura 1:</b> Pintura Creebet do Minecraft. [<a href="#1-teste-da-ref">1</a>]</em>
 </div>
 
 <div style="display: inline_block" align="center">
 <img height="160cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting_R.png?raw=true"/> 
- 
 <img height="160cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting_G.png?raw=true"/> 
-
-<img height="160cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting_B.png?raw=true"/> 
-  
+<img height="160cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Creeper_mine_painting_B.png?raw=true"/>  
 <em><b>Figura 2:</b> Canais da Figura 1 separados (Vermelho, Verde e Azul - RGB). </em>
 </div>
 
+<br>
 
-
-
-<details>
-  <summary>Matrizes das imagens acima:</summary>
-  <p>
-R:
+**$$R_{16x32}:$$**
 
 $$
 \begin{bmatrix} 
@@ -44,11 +37,12 @@ $$
  83 & 153 & 114 & 125 & 175 & 178 & 175 & 99 & 102 & 139 & 111 & 89 & 135 & 181 & 189 & 185 & 196 & 191 & 197 & 198 & 194 & 176 & 184 & 202 & 203 & 199 & 191 & 191 & 207 & 208 & 189 & 86 & \\
  81 & 157 & 173 & 181 & 181 & 179 & 181 & 175 & 176 & 182 & 174 & 174 & 186 & 196 & 188 & 188 & 192 & 193 & 195 & 197 & 199 & 192 & 196 & 199 & 205 & 197 & 198 & 202 & 199 & 197 & 188 & 84 & \\
  81 & 148 & 161 & 162 & 154 & 159 & 164 & 160 & 164 & 175 & 168 & 170 & 167 & 169 & 173 & 164 & 171 & 166 & 175 & 176 & 175 & 177 & 180 & 175 & 178 & 174 & 179 & 176 & 180 & 177 & 168 & 83 & \\
- 77 & 71 & 70 & 80 & 80 & 81 & 82 & 81 & 81 & 84 & 83 & 83 & 83 & 82 & 83 & 82 & 83 & 83 & 85 & 85 & 85 & 85 & 85 & 85 & 84 & 84 & 85 & 84 & 76 & 76 & 83 & 79 & \\
+ 77 & 71 & 70 & 80 & 80 & 81 & 82 & 81 & 81 & 84 & 83 & 83 & 83 & 82 & 83 & 82 & 83 & 83 & 85 & 85 & 85 & 85 & 85 & 85 & 84 & 84 & 85 & 84 & 76 & 76 & 83 & 79 & \\     
 \end{bmatrix}
 $$
 
-G:
+
+**$$G_{16x32}:$$**
 
 $$
 \begin{bmatrix}
@@ -67,11 +61,11 @@ $$
  56 & 144 & 100 & 107 & 177 & 186 & 185 & 130 & 131 & 159 & 141 & 131 & 155 & 181 & 188 & 187 & 199 & 195 & 203 & 203 & 202 & 188 & 196 & 208 & 208 & 202 & 195 & 199 & 207 & 206 & 166 & 45 & \\
  51 & 147 & 161 & 167 & 168 & 170 & 172 & 166 & 168 & 172 & 164 & 163 & 171 & 180 & 169 & 168 & 172 & 171 & 173 & 176 & 178 & 172 & 178 & 179 & 187 & 178 & 178 & 180 & 180 & 177 & 164 & 47 & \\
  45 & 139 & 152 & 148 & 140 & 147 & 151 & 144 & 148 & 160 & 154 & 153 & 148 & 153 & 157 & 147 & 153 & 145 & 154 & 156 & 156 & 159 & 162 & 156 & 159 & 155 & 160 & 158 & 159 & 155 & 148 & 55 & \\
- 45 & 37 & 35 & 42 & 41 & 43 & 44 & 43 & 45 & 52 & 52 & 51 & 52 & 62 & 64 & 62 & 63 & 62 & 54 & 53 & 53 & 53 & 54 & 53 & 46 & 48 & 51 & 50 & 42 & 43 & 63 & 50 & \\ 
+ 45 & 37 & 35 & 42 & 41 & 43 & 44 & 43 & 45 & 52 & 52 & 51 & 52 & 62 & 64 & 62 & 63 & 62 & 54 & 53 & 53 & 53 & 54 & 53 & 46 & 48 & 51 & 50 & 42 & 43 & 63 & 50 & \\     
 \end{bmatrix}
 $$
 
-B:
+**$$B_{16x32}:$$**
 
 $$
 \begin{bmatrix}
@@ -90,38 +84,44 @@ $$
  27 & 113 & 67 & 51 & 158 & 182 & 175 & 73 & 74 & 115 & 90 & 75 & 99 & 164 & 170 & 172 & 185 & 178 & 172 & 176 & 190 & 163 & 187 & 201 & 199 & 176 & 184 & 195 & 198 & 188 & 125 & 22 & \\
  26 & 117 & 128 & 135 & 133 & 135 & 137 & 129 & 130 & 131 & 123 & 118 & 130 & 142 & 125 & 122 & 127 & 122 & 128 & 128 & 132 & 128 & 139 & 137 & 150 & 138 & 129 & 137 & 137 & 132 & 124 & 26 & \\
  26 & 120 & 130 & 122 & 109 & 119 & 123 & 110 & 115 & 133 & 122 & 115 & 107 & 112 & 117 & 101 & 119 & 100 & 111 & 112 & 112 & 118 & 125 & 114 & 122 & 116 & 124 & 124 & 126 & 119 & 114 & 27 & \\
- 16 & 21 & 22 & 25 & 24 & 26 & 27 & 24 & 25 & 24 & 22 & 22 & 21 & 25 & 27 & 25 & 27 & 25 & 23 & 22 & 22 & 23 & 23 & 23 & 27 & 28 & 30 & 29 & 24 & 23 & 28 & 17 & \\ 
+ 16 & 21 & 22 & 25 & 24 & 26 & 27 & 24 & 25 & 24 & 22 & 22 & 21 & 25 & 27 & 25 & 27 & 25 & 23 & 22 & 22 & 23 & 23 & 23 & 27 & 28 & 30 & 29 & 24 & 23 & 28 & 17 & \\     
 \end{bmatrix}
 $$
-  </p>
-</details>
 
-# 1 - O que é visão Computacional?
-# 2 - Visão Computacional com Aprendizado de Máquina
-# 3 - Coco dataset
-## 3.1 - Treinar com seu próprio Dataset
-# 4 - Diferença entre Classificação, Classificação com Localização, Deteccção (Segmentação)
-# 5 - O que é o YOLO?
-## 5.1 - _Output_
-## 5.2 - _Sliding Window_
-## 5.3 - _Nonmax Suppression_
-## 5.4 - _Ancher boxes_
-## 5.5 - _Region Proposals (R-CNN)_
-## 5.6 - _Fast R-CNN_
-## 5.7 - _Faster R-CNN_
-# 6 - Principais modelos do YOLO
-# 7 - Aplicações de YOLO na LUNAR (começo de 2025)
-# 8 - Outras aplicações do YOLO
-## 8.1 - Automóveis 
-## 8.2 - Esportes
-## 8.3 - Indústria 
-## 8.4 - Ambiental
-## 8.5 - Agro
-## 8.6 - Saúde
-## 8.7 - Civil
-## 8.8 - Entretenimento
-## 8.9 - Acessibilidade
-## 8.10 - Estética
-# 9 - Principal Concorrente do YOLO
-# 10 - Referências
+<br>
+
+<div style="display: inline_block" align="center">
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/RGB_channels_plot.png?raw=true"/> 
+
+<em><b>Figura 3:</b> Plot das matrizes R, G e B juntos e separados.</em>
+</div>
+
+
+# 1 - Visão Computacional com Aprendizado de Máquina
+# 2 - Coco dataset
+## 2.1 - Treinar com seu próprio Dataset
+# 3 - Diferença entre Classificação, Classificação com Localização, Deteccção (Segmentação)
+# 4 - O que é o YOLO?
+## 4.1 - _Output_
+## 4.2 - _Sliding Window_
+## 4.3 - _Nonmax Suppression_
+## 4.4 - _Ancher boxes_
+## 4.5 - _Region Proposals (R-CNN)_
+## 4.6 - _Fast R-CNN_
+## 4.7 - _Faster R-CNN_
+# 5 - Principais modelos do YOLO
+# 6 - Aplicações de YOLO na LUNAR (começo de 2025)
+# 7 - Outras aplicações do YOLO
+## 7.1 - Automóveis 
+## 7.2 - Esportes
+## 7.3 - Indústria 
+## 7.4 - Ambiental
+## 7.5 - Agro
+## 7.6 - Saúde
+## 7.7 - Civil
+## 7.8 - Entretenimento
+## 7.9 - Acessibilidade
+## 7.10 - Estética
+# 8 - Principal Concorrente do YOLO
+# 9 - Referências
 #### [1] Teste da ref
