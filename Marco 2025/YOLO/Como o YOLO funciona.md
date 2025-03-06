@@ -106,7 +106,16 @@ A Visão Computacional é um campo da Inteligência Artificial que permite que c
 <em><b>Figura 4:</b> Rede Neural.</em>
 </div>
 
+<div style="display: inline_block" align="center">
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig5.png?raw=true"/> 
+
+<em><b>Figura 4:</b> Exemplo de Dataset.</em>
+</div>
+
 # 2 - Coco dataset
+O COCO Dataset (_Common Objects in Context_) é um conjunto de dados amplamente utilizado em Visão Computacional para detecção, segmentação e legendagem de imagens. Ele contém milhares de imagens anotadas com objetos em diferentes contextos, incluindo bounding boxes, segmentações e descrições textuais, sendo essencial para treinar e avaliar modelos de reconhecimento de objetos e IA.
+
+
 ## 2.1 - Treinar com seu próprio Dataset
 # 3 - Diferença entre Classificação, Classificação com Localização, Deteccção (Segmentação)
 # 4 - O que é o YOLO?
