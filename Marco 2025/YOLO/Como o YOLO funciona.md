@@ -149,5 +149,5 @@ O COCO Dataset (_Common Objects in Context_) é um conjunto de dados amplamente 
 # 8 - Principal Concorrente do YOLO
 # 9 - Referências
 #### [1] Teste da ref
-#### [2] T.-Y. Lin, M. Maire, S. Belongie, L. Bourdev, R. Girshick, J. Hays, P. Perona, D. Ramanan, C. L. Zitnick, and P. Dollár, "Microsoft COCO: Common Objects in Context," *arXiv preprint arXiv:1405.0312*, 2015. [Online]. Available: <https://arxiv.org/abs/1405.0312>
+<h4 id="2-coco-ref">[2] T.-Y. Lin, M. Maire, S. Belongie, L. Bourdev, R. Girshick, J. Hays, P. Perona, D. Ramanan, C. L. Zitnick, and P. Dollár, "Microsoft COCO: Common Objects in Context," <em>arXiv preprint arXiv:1405.0312</em>, 2015. [Online]. Available: <a href="https://arxiv.org/abs/1405.0312">https://arxiv.org/abs/1405.0312</a></h4>
 
