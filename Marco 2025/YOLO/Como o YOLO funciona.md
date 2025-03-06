@@ -98,7 +98,7 @@ $$
 
 
 # 1 - Visão Computacional com Aprendizado de Máquina
-A Visão Computacional é um campo da Inteligência Artificial que permite que computadores **aprendam** a interpretar e analisar imagens e vídeos, simulando a percepção visual humana. Utilizando técnicas como processamento de imagens, aprendizado de máquina e redes neurais, a visão computacional pode reconhecer objetos, detectar padrões e extrair informações visuais.
+O COCO Dataset (_Common Objects in Context_) foi criado para avançar o reconhecimento de objetos no contexto da compreensão de cenas. Ele contém imagens de cenas do dia a dia, onde os objetos aparecem em seus ambientes naturais, e são rotulados com segmentações por instância para localização precisa. O conjunto de dados inclui 91 tipos de objetos reconhecíveis por crianças de 4 anos, com um total de 2,5 M de instâncias rotuladas em **328 K imagens**. Seu desenvolvimento envolveu trabalhadores crowdsourcing e interfaces inovadoras para detecção e segmentação. 
 
 <div style="display: inline_block" align="center">
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig4.png?raw=true"/> 
@@ -114,6 +114,13 @@ A Visão Computacional é um campo da Inteligência Artificial que permite que c
 
 # 2 - Coco dataset
 O COCO Dataset (_Common Objects in Context_) é um conjunto de dados amplamente utilizado em Visão Computacional para detecção, segmentação e legendagem de imagens. Ele contém milhares de imagens anotadas com objetos em diferentes contextos, incluindo bounding boxes, segmentações e descrições textuais, sendo essencial para treinar e avaliar modelos de reconhecimento de objetos e IA.
+
+<div style="display: inline_block" align="center">
+<img height="400cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/coco_dataset.png?raw=true"/> 
+
+<em><b>Figura 1:</b> Coco Dataset. [<a href="#2-coco-ref">2</a>]</em>
+
+</div>
 
 
 ## 2.1 - Treinar com seu próprio Dataset
@@ -142,3 +149,5 @@ O COCO Dataset (_Common Objects in Context_) é um conjunto de dados amplamente 
 # 8 - Principal Concorrente do YOLO
 # 9 - Referências
 #### [1] Teste da ref
+#### [2] T.-Y. Lin, M. Maire, S. Belongie, L. Bourdev, R. Girshick, J. Hays, P. Perona, D. Ramanan, C. L. Zitnick, and P. Dollár, "Microsoft COCO: Common Objects in Context," *arXiv preprint arXiv:1405.0312*, 2015. [Online]. Available: <https://arxiv.org/abs/1405.0312>
+
