@@ -48,13 +48,13 @@ for file in files:
             label = f"{model.names[int(cls[i])]} {confs[i]:.2f}"  # Nome da classe e confiança
 
             # Desenha a bounding box com espessura maior
-            cv2.rectangle(annotated_img, (x1, y1), (x2, y2), (206, 6, 103), thickness=15)
+            cv2.rectangle(annotated_img, (x1, y1), (x2, y2), (0, 0, 255), thickness=15)
 
             # Adiciona a label com fonte maior
             font_scale = 2.0
             font_thickness = 6
             (w, h), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, font_scale, font_thickness)
-            cv2.rectangle(annotated_img, (x1, y1 - h - 5), (x1 + w, y1), (206, 6, 103), -1)  # Fundo da label
+            cv2.rectangle(annotated_img, (x1, y1 - h - 5), (x1 + w, y1), (0, 0, 255), -1)  # Fundo da label
             cv2.putText(annotated_img, label, (x1, y1 - 5), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (255, 255, 255), font_thickness)
 
         # Exibe a imagem com as detecções
