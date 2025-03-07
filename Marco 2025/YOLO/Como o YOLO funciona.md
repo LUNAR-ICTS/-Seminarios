@@ -318,9 +318,9 @@ A **Visão Computacional na Saúde** é amplamente utilizada na análise de exam
 
 <div style="display: inline_block" align="center">
 <img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/hands.gif?raw=true"/> 
-<img height="250" src="https://visionplatform.ai/wp-content/uploads/2025/02/Scherm%C2%ADafbeelding-2025-02-13-om-15.26.17.png"/> 
+<img height="250" src="https://figures.semanticscholar.org/7de78ad30aa4871c63aa03754f8ba099696a2ee5/3-Figure2-1.png"/> 
 
-<em><b>Vídeo 10 e Figura 15:</b> Reconhecimento de sinais de mão[<a href="#weforum-hand-tracking-algorithm-ref">20</a>]. Ideia de óculos para auxiliar pessoas com deficiência visual[<a href="#tapu2013-computervision-ref">21</a>].</em>
+<em><b>Vídeo 10 e Figura 15:</b> Reconhecimento de sinais de mão[<a href="#weforum-hand-tracking-algorithm-ref">20</a>]. Ideia de colete para auxiliar pessoas com deficiência visual[<a href="#tapu2013-computervision-ref">21</a>].</em>
 
 </div>
 
@@ -330,11 +330,20 @@ A **Visão Computacional na Saúde** é amplamente utilizada na análise de exam
 <img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/landmarks.png?raw=true"/> 
 
 
-<em><b>Vídeo 16:</b> Reconhecimento de landmarks no rosto (YOLO não utilizado nessa detecção de pontos). [<a href="#guo2019-pfld-ref">22</a>]</em>
+<em><b>Vídeo 11 e Figura 16:</b> Reconhecimento de landmarks no rosto (YOLO não utilizado nessa detecção de pontos). [<a href="#guo2019-pfld-ref">22</a>]</em>
 
 </div>
 
 # 8 - Principal Concorrente do YOLO
+
+<div style="display: inline_block" align="center">
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/segment_anything.gif?raw=true"/> 
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/segment_anything2.gif?raw=true"/> 
+
+<em><b>Vídeo 10 e Figura 15:</b> Segment Anything da META. [<a href="#kirillov2023-segment-ref">23</a>]</em>
+
+</div>
+
 # 9 - Referências
 <h4 id="1-mojang-ref">[1] Mojang Studios, "Mojang Studios Official Website," [Online]. Available: <a href="https://www.minecraft.net/">https://www.minecraft.net/</a>. Accessed: 2025-03-06.</h4>
 
@@ -382,3 +391,5 @@ Accessed: 2025-03-06.</h4>
 <h4 id="tapu2013-computervision-ref">[21] Ruxandra Tapu, Bogdan Cosmin Mocanu, and Titus B. Zaharia, "A computer vision system that ensure the autonomous navigation of blind people," 2013 E-Health and Bioengineering Conference (EHB), 2013, pp. 1-4. [Online]. Available: <a href="https://ieeexplore.ieee.org/document/6707267/">https://ieeexplore.ieee.org/document/6707267/</a>. Accessed: 2025-03-07.</h4>
 
 <h4 id="guo2019-pfld-ref">[22] Xiaojie Guo, Siyuan Li, Jinke Yu, Jiawan Zhang, Jiayi Ma, Lin Ma, Wei Liu, and Haibin Ling, "PFLD: A Practical Facial Landmark Detector," 2019. [Online]. Available: <a href="https://arxiv.org/abs/1902.10859">https://arxiv.org/abs/1902.10859</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="kirillov2023-segment-ref">[23] Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer Whitehead, Alexander C. Berg, Wan-Yen Lo, Piotr Dollár, and Ross Girshick, "Segment Anything," 2023. [Online]. Available: <a href="https://arxiv.org/abs/2304.02643">https://arxiv.org/abs/2304.02643</a>. Accessed: 2025-03-07.</h4>
