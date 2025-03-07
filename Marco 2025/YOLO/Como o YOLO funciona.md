@@ -232,8 +232,15 @@ Resumo: Propor regiões. Classificar as regiões propostas uma de cada vez. Reto
 ## 4.7 - _Faster R-CNN_
 <p>Faster R-CNN [<a href="#ren2016-fasterrcnn-ref">9</a>] aprimora o processo de detecção de objetos ao substituir algoritmos tradicionais de proposta de regiões por uma <I>Rede Neural Convolucional</I> (<I>CNN</I>). Essa abordagem permite que as regiões candidatas sejam geradas diretamente pela rede, reduzindo significativamente o tempo de processamento em comparação com métodos anteriores, como <I>R-CNN</I> e <I>Fast R-CNN</I>.</p>
 
-# 5 - Principais modelos do YOLO
+# 5 - Principais Tarefas do YOLO
+YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computacional. A estrutura pode ser utilizada para efetuar a deteção, segmentação, obb, classificação e estimativa de pose. Cada uma destas tarefas tem um objetivo e um caso de utilização diferentes.
 
+<div id="fig12" style="display: inline_block" align="center">
+<img height="200" src="https://github.com/ultralytics/docs/releases/download/0/ultralytics-yolov8-tasks-banner.avif"/> 
+
+<em><b>Figura 12:</b> Tarefas suportadas pelo modelo YOLOv11 da Ultralytics. [<a href="#yolo11-ref">5</a>]</em>
+
+</div>
 
 # 6 - Aplicações de YOLO na LUNAR (começo de 2025)
 # 7 - Outras aplicações do YOLO
@@ -255,7 +262,7 @@ Resumo: Propor regiões. Classificar as regiões propostas uma de cada vez. Reto
 
 <h4 id="roboflow-ref">[3] LUNAR - ICTS, "Como rotular dataset de detecção no Roboflow," [Online]. Available: <a href="https://www.youtube.com/watch?v=Zep7m4wSAZU">https://www.youtube.com/watch?v=Zep7m4wSAZU</a>. Accessed: 2025-03-06.</h4>
 
-<h4 id="cnn-ref">[3] A. Ng, "Convolutional Neural Networks," DeepLearning.AI, 2017. [Online]. Available: 
+<h4 id="cnn-ref">[4] A. Ng, "Convolutional Neural Networks," DeepLearning.AI, 2017. [Online]. Available: 
 <a href="https://www.coursera.org/learn/convolutional-neural-networks">https://www.coursera.org/learn/convolutional-neural-networks</a>. 
 Available: <a href="https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF">https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF</a>. 
 Accessed: 2025-03-06.</h4>
