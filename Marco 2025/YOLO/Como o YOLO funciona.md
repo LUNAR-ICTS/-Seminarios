@@ -218,14 +218,20 @@ Modelos de detecção mais eficientes podem dividir as imagens em muito mais cé
 <p>A <I>R-CNN</I> [<a href="#rcnn-ref">6</a>] (<I>Regions with Convolutional Neural Networks</I>) é um modelo de detecção de objetos que utiliza <I>Region Proposals</I> para reduzir o número de regiões analisadas. Primeiro, um algoritmo de segmentação identifica áreas de interesse, e, em seguida, uma rede neural convolucional classifica cada região proposta e refina a localização dos objetos. Embora apresente bons resultados, a <I>R-CNN</I> é lenta, pois processa cada região separadamente, tornando a inferência computacionalmente cara.</p>
 
 <div id="fig12" style="display: inline_block" align="center">
-<img height="600cm" src="https://media.geeksforgeeks.org/wp-content/uploads/20200219133430/seelctive-search.png"/> 
+<img height="400" src="https://media.geeksforgeeks.org/wp-content/uploads/20200219133430/seelctive-search.png"/> 
 
 <em><b>Figura 12:</b> Region Proposals. [<a href="#r-cnn-geeksforgeeks-ref">7</a>]</em>
 
 </div>
 
+Resumo: Propor regiões. Classificar as regiões propostas uma de cada vez. Retornar rótulo + caixa delimitadora.
+
 ## 4.6 - _Fast R-CNN_
+<p>O Fast R-CNN [<a href="#girshick2015-fastrcnn-ref">8</a>] Otimiza o processo de detecção de objetos ao substituir a abordagem tradicional de classificação de regiões individuais. Em vez de classificar cada região proposta separadamente, ele utiliza uma implementação convolucional de <I>sliding windows</I> para processar todas as regiões propostas simultaneamente. Isso reduz significativamente o tempo de inferência ao compartilhar computação entre as regiões, mantendo a precisão na classificação e na delimitação dos objetos detectados.</p>
+
 ## 4.7 - _Faster R-CNN_
+<p>Faster R-CNN [<a href="#ren2016-fasterrcnn-ref">8</a>] aprimora o processo de detecção de objetos ao substituir algoritmos tradicionais de proposta de regiões por uma <I>Rede Neural Convolucional</I> (<I>CNN</I>). Essa abordagem permite que as regiões candidatas sejam geradas diretamente pela rede, reduzindo significativamente o tempo de processamento em comparação com métodos anteriores, como <I>R-CNN</I> e <I>Fast R-CNN</I>.</p>
+
 # 5 - Principais modelos do YOLO
 # 6 - Aplicações de YOLO na LUNAR (começo de 2025)
 # 7 - Outras aplicações do YOLO
@@ -256,5 +262,9 @@ Accessed: 2025-03-06.</h4>
 
 <h4 id="rcnn-ref">[6] Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik, "Rich feature hierarchies for accurate object detection and semantic segmentation," 2014. [Online]. Available: <a href="https://arxiv.org/abs/1311.2524">https://arxiv.org/abs/1311.2524</a>. Accessed: 2025-03-06.</h4>
 
-<h4 id="r-cnn-geeksforgeeks-ref">[X] GeeksforGeeks, "R-CNN – Region-Based Convolutional Neural Networks," [Online]. Available: <a href="https://www.geeksforgeeks.org/r-cnn-region-based-cnns/">https://www.geeksforgeeks.org/r-cnn-region-based-cnns/</a>. Accessed: 2025-03-07.</h4>
+<h4 id="r-cnn-geeksforgeeks-ref">[7] GeeksforGeeks, "R-CNN – Region-Based Convolutional Neural Networks," [Online]. Available: <a href="https://www.geeksforgeeks.org/r-cnn-region-based-cnns/">https://www.geeksforgeeks.org/r-cnn-region-based-cnns/</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="girshick2015-fastrcnn-ref">[8] Ross Girshick, "Fast R-CNN," 2015. [Online]. Available: <a href="https://arxiv.org/abs/1504.08083">https://arxiv.org/abs/1504.08083</a>. Accessed: 2025-03-07.
+
+<h4 id="ren2016-fasterrcnn-ref">[9] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun, "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks," 2016. [Online]. Available: <a href="https://arxiv.org/abs/1506.01497">https://arxiv.org/abs/1506.01497</a>. Accessed: 2025-03-07.</h4>
 
