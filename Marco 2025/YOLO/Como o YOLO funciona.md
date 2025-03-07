@@ -230,9 +230,11 @@ Resumo: Propor regiões. Classificar as regiões propostas uma de cada vez. Reto
 <p>O Fast R-CNN [<a href="#girshick2015-fastrcnn-ref">8</a>] Otimiza o processo de detecção de objetos ao substituir a abordagem tradicional de classificação de regiões individuais. Em vez de classificar cada região proposta separadamente, ele utiliza uma implementação convolucional de <I>sliding windows</I> para processar todas as regiões propostas simultaneamente. Isso reduz significativamente o tempo de inferência ao compartilhar computação entre as regiões, mantendo a precisão na classificação e na delimitação dos objetos detectados.</p>
 
 ## 4.7 - _Faster R-CNN_
-<p>Faster R-CNN [<a href="#ren2016-fasterrcnn-ref">8</a>] aprimora o processo de detecção de objetos ao substituir algoritmos tradicionais de proposta de regiões por uma <I>Rede Neural Convolucional</I> (<I>CNN</I>). Essa abordagem permite que as regiões candidatas sejam geradas diretamente pela rede, reduzindo significativamente o tempo de processamento em comparação com métodos anteriores, como <I>R-CNN</I> e <I>Fast R-CNN</I>.</p>
+<p>Faster R-CNN [<a href="#ren2016-fasterrcnn-ref">9</a>] aprimora o processo de detecção de objetos ao substituir algoritmos tradicionais de proposta de regiões por uma <I>Rede Neural Convolucional</I> (<I>CNN</I>). Essa abordagem permite que as regiões candidatas sejam geradas diretamente pela rede, reduzindo significativamente o tempo de processamento em comparação com métodos anteriores, como <I>R-CNN</I> e <I>Fast R-CNN</I>.</p>
 
 # 5 - Principais modelos do YOLO
+
+
 # 6 - Aplicações de YOLO na LUNAR (começo de 2025)
 # 7 - Outras aplicações do YOLO
 ## 7.1 - Automóveis 
