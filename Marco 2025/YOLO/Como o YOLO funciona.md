@@ -202,7 +202,7 @@ A técnica de *Anchor Boxes* permite que um único *grid cell* detecte múltiplo
 <em><b>Figura 11:</b> Anchor boxes. </em>
 </div>
 
-<p>Assim como na <a href="fig9">Figura 9</a>, o <I>Output</I> (ŷ) retorna os mesmos dados da <I>Bounding box</I>. Contudo, ele vai retornar esses dados para cada Bounding box como mostrado no exemplo da <a href="fig12">Figura 12</a>.</p>
+<p>Assim como na <a href="#fig9">Figura 9</a>, o <I>Output</I> (ŷ) retorna os mesmos dados da <I>Bounding box</I>. Contudo, ele vai retornar esses dados para cada Bounding box como mostrado no exemplo da <a href="#fig12">Figura 12</a>.</p>
 
 Modelos de detecção mais eficientes podem dividir as imagens em muito mais células, possuir dezenas de *Ancher boxes* diferentes e possuir centenas de classes de objetos.
 
