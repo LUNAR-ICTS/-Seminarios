@@ -1,4 +1,4 @@
-# Roadmap:
+![image](https://github.com/user-attachments/assets/f81a3592-3a5f-4e8c-a6fc-8ff3e03ce796)# Roadmap:
 # 0 - O que é uma imagem?
 
 Uma imagem digital é composta por três canais de cores (Vermelho, Verde e Azul - RGB), cada um representado por uma matriz bidimensional onde os valores indicam a intensidade da cor em cada pixel. A sobreposição dessas matrizes forma uma estrutura tridimensional $(altura, largura, 3)$, permitindo a composição das cores e a exibição da imagem.
@@ -136,19 +136,32 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig7.png?raw=true"/> 
 
 <em><b>Figura 7:</b> Clasicação vs Classificação com Localização vs Deteccção. </em>
+</div>
 
 <div style="display: inline_block" align="center">
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig9.png?raw=true"/> 
 
 <em><b>Figura 8:</b> Segmentação. </em>
 
+
 </div>
 
 # 4 - O que é o YOLO?
 
+<p>O YOLO (You Only Look Once) é um modelo de detecção de objetos e segmentação de imagens em tempo real, baseado em aprendizado profundo. Ele processa a imagem inteira de uma vez, tornando a detecção mais rápida e eficiente. A versão mais recente, YOLO11 [<a href="yolo11-ref">5</a>], desenvolvida pela Ultralytics, combina avanços em velocidade e precisão, sendo altamente adaptável para diversas plataformas, desde dispositivos embarcados até aplicações em nuvem.</p>
+
+<div style="display: inline_block" align="center">
+<img height="180" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/video_seg_part1.gif?raw=true"/> 
+<img height="180''" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/video_seg_part2.gif?raw=true"/> 
+<img height="180" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/video_seg_part3.gif?raw=true"/>  
+<em><b>Vídeo 2:</b> GIFs mostrando o YOLO em funcionamento (<a href="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/video/output.mp4">Vídeo original em melhor qualidade</a>)</em>
+</div>
+
+
+<video src="./results/old_episodes/simulation.mp4" controls preload></video>
+
 ## 4.1 - _Output_
 
-</div>
 
 <div style="display: inline_block" align="center">
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig8.png?raw=true"/> 
@@ -189,6 +202,7 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 Available: <a href="https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF">https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF</a>. 
 Accessed: 2025-03-06.</h4>
 
+<h4 id="yolo11-ref">[5] Glenn Jocher and Jing Qiu, "Ultralytics YOLO11," version 11.0.0, 2024. [Online]. Available: <a href="https://github.com/ultralytics/ultralytics">https://github.com/ultralytics/ultralytics</a>. License: AGPL-3.0. ORCID: 0000-0001-5950-6979, 0000-0002-7603-6750, 0000-0003-3783-7069. Accessed: 2025-03-06.</h4>
 
 
 
