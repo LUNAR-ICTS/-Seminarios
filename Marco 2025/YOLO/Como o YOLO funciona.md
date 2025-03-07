@@ -254,11 +254,18 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 # 7 - Outras aplicações do YOLO
 ## 7.1 - Automóveis 
 
+<div style="display: inline_block" align="center">
+<img height="250" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/8f2826-80f-051b-177b-5ff744de085c_ezgif.com-gif-maker_2_.gif"/> 
+ 
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/car1.gif?raw=true"/> 
 
+<em><b>Vídeo 4:</b> Uso de Visão Computacional aplicado para veículos autônomos. [<a href="#Rebeca">11</a>]</em>
 
-## 7.2 - Esportes
+</div>
 
-<div id="fig12" style="display: inline_block" align="center">
+## 7.2 - Esportes e Entretenimento
+
+<div style="display: inline_block" align="center">
 <img height="400" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Rebeca_poses_medium.gif?raw=true"/> 
 
 <em><b>Vídeo 5:</b> YOLOv11 Poses aplicado no vídeo da Rebeca Andrade. [<a href="#Rebeca">11</a>]</em>
@@ -270,9 +277,8 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 ## 7.5 - Agro
 ## 7.6 - Saúde
 ## 7.7 - Civil
-## 7.8 - Entretenimento
-## 7.9 - Acessibilidade
-## 7.10 - Estética
+## 7.8 - Acessibilidade
+## 7.9 - Segurança e Estética
 # 8 - Principal Concorrente do YOLO
 # 9 - Referências
 <h4 id="1-mojang-ref">[1] Mojang Studios, "Mojang Studios Official Website," [Online]. Available: <a href="https://www.minecraft.net/">https://www.minecraft.net/</a>. Accessed: 2025-03-06.</h4>
