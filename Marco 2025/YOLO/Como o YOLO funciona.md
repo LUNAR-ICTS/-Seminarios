@@ -164,7 +164,7 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 
 
 <div style="display: inline_block" align="center">
-<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig8.png?raw=true"/> 
+<img id="fig9" height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig8.png?raw=true"/> 
 
 <em><b>Figura 9:</b> Output simplificado da detecção. </em>
 
@@ -193,6 +193,28 @@ _Nonmax Suppression_ (NMS) é um método usado na detecção de objetos para rem
 </div>
 
 ## 4.4 - _Ancher boxes_
+
+A técnica de *Anchor Boxes* permite que um único *grid cell* detecte múltiplos objetos ao associá-los a caixas predefinidas de diferentes formatos. Cada objeto é atribuído à *anchor box* que apresenta maior *Intersection over Union* (IoU) com seu *bounding box* real. Dessa forma, a rede pode detectar simultaneamente objetos de diferentes proporções em uma mesma célula, evitando conflitos quando múltiplos objetos compartilham a mesma região. Além disso, *anchor boxes* possibilitam uma especialização mais eficiente do modelo, permitindo que diferentes unidades se ajustem a objetos de formas variadas, como gatos e bolas de esporte.
+
+<div style="display: inline_block" align="center">
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig11.png?raw=true"/> 
+
+<em><b>Figura 11:</b> Anchor boxes. </em>
+</div>
+
+<p>Assim como na <a href="fig9">Figura 9</a>, o *Output* (ŷ) retorna os mesmos dados da *Bounding box*. Contudo, ele vai retornar esses dados para cada Bounding box como mostrado no exemplo da <a href="fig12">Figura 12</a>.</p>
+
+Modelos de detecção mais eficientes podem dividir as imagens em muito mais células, possuir dezenas de *Ancher boxes* diferentes e possuir centenas de classes de objetos.
+
+
+
+<div style="display: inline_block" align="center">
+<img id="fig12" height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig12.png?raw=true"/> 
+
+<em><b>Figura 12:</b> Exemplo de output com mais de uma Anchor boxes. </em>
+
+</div>
+
 ## 4.5 - _Region Proposals (R-CNN)_
 ## 4.6 - _Fast R-CNN_
 ## 4.7 - _Faster R-CNN_
