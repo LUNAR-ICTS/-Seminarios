@@ -172,10 +172,13 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 
 ## 4.2 - _Sliding Window_
 
+O algoritmo de _Sliding Windows_ é uma técnica utilizada para detectar objetos em uma imagem ao dividir a entrada em múltiplas janelas deslizantes, processando cada uma separadamente através de uma rede neural. No entanto, essa abordagem tradicional é computacionalmente cara, pois exige várias passagens pelo modelo. Para otimizar esse processo, é possível converter as camadas totalmente conectadas (_fully connected layers_) da rede em camadas **convolucionais**, permitindo que toda a imagem seja processada simultaneamente em uma única passagem, compartilhando cálculos redundantes. Essa implementação **convolucional** de _Sliding Windows_ melhora a eficiência da detecção, tornando-a significativamente mais rápida, mas ainda apresenta desafios na precisão da localização das caixas delimitadoras (_bounding boxes_), o que pode ser refinado em etapas posteriores do modelo.
+
 <div style="display: inline_block" align="center">
-<img height="180" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window1.gif?raw=true"/> 
-<img height="180''" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window2.gif?raw=true"/> 
-<img height="180" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window3.gif?raw=true"/>  
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window1.gif?raw=true"/> 
+<img height="250''" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window2.gif?raw=true"/> 
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window3.gif?raw=true"/>  
+ 
 <em><b>Vídeo 3:</b> Sliding Window.</em>
 </div>
 
