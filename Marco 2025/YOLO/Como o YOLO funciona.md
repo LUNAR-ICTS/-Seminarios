@@ -1,4 +1,4 @@
-# Roadmap:
+teste# Roadmap:
 # 0 - O que é uma imagem?
 
 Uma imagem digital é composta por três canais de cores (Vermelho, Verde e Azul - RGB), cada um representado por uma matriz bidimensional onde os valores indicam a intensidade da cor em cada pixel. A sobreposição dessas matrizes forma uma estrutura tridimensional $(altura, largura, 3)$, permitindo a composição das cores e a exibição da imagem.
