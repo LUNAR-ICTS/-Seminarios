@@ -318,7 +318,7 @@ A **Visão Computacional na Saúde** é amplamente utilizada na análise de exam
 
 <div style="display: inline_block" align="center">
 <img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/hands.gif?raw=true"/> 
-<img height="250" src="https://figures.semanticscholar.org/7de78ad30aa4871c63aa03754f8ba099696a2ee5/3-Figure2-1.png"/> 
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/cinta_cego.png?raw=true"/> 
 
 <em><b>Vídeo 10 e Figura 15:</b> Reconhecimento de sinais de mão[<a href="#weforum-hand-tracking-algorithm-ref">20</a>]. Ideia de colete para auxiliar pessoas com deficiência visual[<a href="#tapu2013-computervision-ref">21</a>].</em>
 
