@@ -243,9 +243,28 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 </div>
 
 # 6 - Aplicações de YOLO na LUNAR (começo de 2025)
+
+<div style="display: inline_block" align="center">
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/post_processing_Video_for_test1.gif?raw=true"/> 
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/post_processing_Video_for_test2.gif?raw=true"/> 
+ 
+<em><b>Vídeo 3:</b> Deteccção de Cones treinada pela LUNAR.</em>
+</div>
+
 # 7 - Outras aplicações do YOLO
 ## 7.1 - Automóveis 
+
+
+
 ## 7.2 - Esportes
+
+<div id="fig12" style="display: inline_block" align="center">
+<img height="400" src="[https://media.geeksforgeeks.org/wp-content/uploads/20200219133430/seelctive-search.png](https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Rebeca_poses.gif?raw=true)"/> 
+
+<em><b>Vídeo 5:</b> YOLOv11 Poses aplicado no vídeo da Rebeca Andrade. [<a href="#Rebeca">11</a>]</em>
+
+</div>
+
 ## 7.3 - Indústria 
 ## 7.4 - Ambiental
 ## 7.5 - Agro
@@ -276,4 +295,8 @@ Accessed: 2025-03-06.</h4>
 <h4 id="girshick2015-fastrcnn-ref">[8] Ross Girshick, "Fast R-CNN," 2015. [Online]. Available: <a href="https://arxiv.org/abs/1504.08083">https://arxiv.org/abs/1504.08083</a>. Accessed: 2025-03-07.
 
 <h4 id="ren2016-fasterrcnn-ref">[9] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun, "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks," 2016. [Online]. Available: <a href="https://arxiv.org/abs/1506.01497">https://arxiv.org/abs/1506.01497</a>. Accessed: 2025-03-07.</h4>
+<h4 id="Car_vision">[10] </h4>
+
+<h4 id="Rebeca">[11] Olympics Gymnastics, "Rebeca Andrade's GOLD 🥇✨medal floor routine | Music Monday," YouTube, Sep. 9, 2024. [Online]. Available: <a href="https://www.youtube.com/watch?v=xXKM8ThtYOE">https://www.youtube.com/watch?v=xXKM8ThtYOE</a>. Accessed: Mar. 7, 2025.</h4>
+
 
