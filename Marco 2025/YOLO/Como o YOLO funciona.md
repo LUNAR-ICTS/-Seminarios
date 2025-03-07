@@ -186,7 +186,7 @@ O algoritmo de _Sliding Windows_ é uma técnica utilizada para detectar objetos
 _Nonmax Suppression_ (NMS) é um método usado na detecção de objetos para remover previsões redundantes e garantir que cada objeto seja identificado apenas uma vez. Para isso, utiliza-se a métrica _Intersection over Union_ (IoU), que mede a sobreposição entre a caixa predita e a real. O algoritmo ordena as previsões por nível de confiança, seleciona a de maior probabilidade e descarta as demais que possuam alta sobreposição. Esse processo reduz falsos positivos e melhora a precisão do modelo.
 
 <div style="display: inline_block" align="center">
-<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig8.png?raw=true"/> 
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig10.png?raw=true"/> 
 
 <em><b>Figura 10:</b> Nonmax Suppression. </em>
 
