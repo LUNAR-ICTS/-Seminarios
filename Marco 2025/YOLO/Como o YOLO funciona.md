@@ -206,8 +206,6 @@ A técnica de *Anchor Boxes* permite que um único *grid cell* detecte múltiplo
 
 Modelos de detecção mais eficientes podem dividir as imagens em muito mais células, possuir dezenas de *Ancher boxes* diferentes e possuir centenas de classes de objetos.
 
-
-
 <div id="fig12" style="display: inline_block" align="center">
 <img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig12.png?raw=true"/> 
 
@@ -216,6 +214,16 @@ Modelos de detecção mais eficientes podem dividir as imagens em muito mais cé
 </div>
 
 ## 4.5 - _Region Proposals (R-CNN)_
+
+<p>A <I>R-CNN</I> [<a href="#rcnn-ref">6</a>] (<I>Regions with Convolutional Neural Networks</I>) é um modelo de detecção de objetos que utiliza <I>Region Proposals</I> para reduzir o número de regiões analisadas. Primeiro, um algoritmo de segmentação identifica áreas de interesse, e, em seguida, uma rede neural convolucional classifica cada região proposta e refina a localização dos objetos. Embora apresente bons resultados, a <I>R-CNN</I> é lenta, pois processa cada região separadamente, tornando a inferência computacionalmente cara.</p>
+
+<div id="fig12" style="display: inline_block" align="center">
+<img height="600cm" src="https://media.geeksforgeeks.org/wp-content/uploads/20200219133430/seelctive-search.png"/> 
+
+<em><b>Figura 12:</b> Region Proposals. [<a href="#r-cnn-geeksforgeeks-ref">7</a>]</em>
+
+</div>
+
 ## 4.6 - _Fast R-CNN_
 ## 4.7 - _Faster R-CNN_
 # 5 - Principais modelos do YOLO
@@ -246,5 +254,7 @@ Accessed: 2025-03-06.</h4>
 
 <h4 id="yolo11-ref">[5] Glenn Jocher and Jing Qiu, "Ultralytics YOLO11," version 11.0.0, 2024. [Online]. Available: <a href="https://github.com/ultralytics/ultralytics">https://github.com/ultralytics/ultralytics</a>. License: AGPL-3.0. ORCID: 0000-0001-5950-6979, 0000-0002-7603-6750, 0000-0003-3783-7069. Accessed: 2025-03-06.</h4>
 
+<h4 id="rcnn-ref">[6] Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik, "Rich feature hierarchies for accurate object detection and semantic segmentation," 2014. [Online]. Available: <a href="https://arxiv.org/abs/1311.2524">https://arxiv.org/abs/1311.2524</a>. Accessed: 2025-03-06.</h4>
 
+<h4 id="r-cnn-geeksforgeeks-ref">[X] GeeksforGeeks, "R-CNN – Region-Based Convolutional Neural Networks," [Online]. Available: <a href="https://www.geeksforgeeks.org/r-cnn-region-based-cnns/">https://www.geeksforgeeks.org/r-cnn-region-based-cnns/</a>. Accessed: 2025-03-07.</h4>
 
