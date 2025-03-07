@@ -1,4 +1,4 @@
-teste# Roadmap:
+# Roadmap:
 # 0 - O que é uma imagem?
 
 Uma imagem digital é composta por três canais de cores (Vermelho, Verde e Azul - RGB), cada um representado por uma matriz bidimensional onde os valores indicam a intensidade da cor em cada pixel. A sobreposição dessas matrizes forma uma estrutura tridimensional $(altura, largura, 3)$, permitindo a composição das cores e a exibição da imagem.
@@ -171,6 +171,14 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 </div>
 
 ## 4.2 - _Sliding Window_
+
+<div style="display: inline_block" align="center">
+<img height="180" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window1.gif?raw=true"/> 
+<img height="180''" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window2.gif?raw=true"/> 
+<img height="180" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/sliding_window3.gif?raw=true"/>  
+<em><b>Vídeo 3:</b> Sliding Window.</em>
+</div>
+
 ## 4.3 - _Nonmax Suppression_
 ## 4.4 - _Ancher boxes_
 ## 4.5 - _Region Proposals (R-CNN)_
