@@ -259,7 +259,7 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 ## 7.2 - Esportes
 
 <div id="fig12" style="display: inline_block" align="center">
-<img height="400" src="[https://media.geeksforgeeks.org/wp-content/uploads/20200219133430/seelctive-search.png](https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Rebeca_poses.gif?raw=true)"/> 
+<img height="400" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Rebeca_poses_medium.gif?raw=true"/> 
 
 <em><b>Vídeo 5:</b> YOLOv11 Poses aplicado no vídeo da Rebeca Andrade. [<a href="#Rebeca">11</a>]</em>
 
