@@ -9,7 +9,7 @@ def get_filename_and_extension(image_path):
     return filename, extension, directory + "\\"
 
 # Inicializa o modelo YOLO
-model = YOLO("yolo11x.pt")
+model = YOLO("yolo11m.pt")
 
 # Caminho da imagem a ser processada
 image_path = r"Marco 2025\YOLO\assets\img\cats\image7.jpg"  # Substitua pelo caminho correto

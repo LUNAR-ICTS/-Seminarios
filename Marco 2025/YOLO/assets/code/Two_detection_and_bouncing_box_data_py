@@ -9,7 +9,7 @@ def get_filename_and_extension(image_path):
     return filename, extension, directory + "\\"
 
 # Inicializa o modelo YOLO
-model = YOLO("yolo11x.pt")
+model = YOLO("yolo11m.pt")
 
 # Exibe todas as classes disponíveis no modelo
 print("Classes disponíveis no modelo YOLO:")
