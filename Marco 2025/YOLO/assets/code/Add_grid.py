@@ -56,6 +56,6 @@ def add_grid_to_image(image_path, num_squares_x=10, num_squares_y=10, color=(0, 
     cv2.destroyAllWindows()
 
 # Exemplo de uso
-n = 5 # Número de quadrados
-image_path = r"Marco 2025\YOLO\assets\img\cats\image7.jpg"  # Substitua pelo caminho correto da sua imagem
+n = 3 # Número de quadrados
+image_path = r"Marco 2025\YOLO\assets\img\cats\image7_detect.jpg"  # Substitua pelo caminho correto da sua imagem
 add_grid_to_image(image_path, num_squares_x=n, num_squares_y=n, color=(0, 255, 0), thickness=2)
