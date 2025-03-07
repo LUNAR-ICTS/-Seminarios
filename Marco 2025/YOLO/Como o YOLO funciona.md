@@ -274,12 +274,29 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 </div>
 
 ## 7.3 - Indústria 
-## 7.4 - Ambiental
-## 7.5 - Agro
-## 7.6 - Saúde
-## 7.7 - Civil
-## 7.8 - Acessibilidade
-## 7.9 - Segurança e Estética
+
+<div style="display: inline_block" align="center">
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/candy-roboflow-transcode.gif?raw=true"/> 
+<img height="250" src="https://www.cognex.com/library/media/intro-topics/intro-to-machine-vision/feb2024-gateway/machine-vision-in-action-gif.gif?h=400&w=800&la=en&hash=1D9987D73CF09F78F72C8AD97AB3384B"/> 
+
+<em><b>Vídeo 6:</b> Contagem de doces em uma fáblica[<a href="roboflow-ref">3</a>]. Detecção de peças defeituosas na linha de produção[<a href="#cognex2025-machinevision-ref">14</a>].</em>
+
+</div>
+
+## 7.4 - Ambiental e Agro
+
+<div style="display: inline_block" align="center">
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fish-Counting-and-Population-Monitoring-with-YOLOv3-OpenCV.gif?raw=true"/> 
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/agro.gif?raw=true"/> 
+
+<em><b>Vídeo 6:</b> Contagem de peixes[<a href="fish-counting-yolov3-ref">15</a>]. Detecção de pragas em plantações[<a href="roboflow-ref">3</a>].</em>
+
+</div>
+
+## 7.5 - Saúde
+## 7.6 - Civil
+## 7.7 - Acessibilidade
+## 7.8 - Segurança e Estética
 # 8 - Principal Concorrente do YOLO
 # 9 - Referências
 <h4 id="1-mojang-ref">[1] Mojang Studios, "Mojang Studios Official Website," [Online]. Available: <a href="https://www.minecraft.net/">https://www.minecraft.net/</a>. Accessed: 2025-03-06.</h4>
@@ -311,4 +328,6 @@ Accessed: 2025-03-06.</h4>
 
 <h4 id="poses2">[13] Sree Anantha Kannan, "Full-body tracking," Medium, Aug. 2021. [Online]. Available: <a href="https://medium.com/@sreeananthakannan/full-body-tracking-c7c4cf68bb9d">https://medium.com/@sreeananthakannan/full-body-tracking-c7c4cf68bb9d</a>. Accessed: 2025-03-07.</h4>
 
+<h4 id="cognex2025-machinevision-ref">[14] Cognex Corporation, "What is Machine Vision," 2025. [Online]. Available: <a href="https://www.cognex.com/what-is/machine-vision">https://www.cognex.com/what-is/machine-vision</a>. Accessed: 2025-03-07.</h4>
 
+<h4 id="fish-counting-yolov3-ref">[15] "Fish Counting and Population Monitoring with YOLOv3 OpenCV," Viso.ai, Jan. 2023. [Online]. Available: <a href="https://viso.ai/wp-content/uploads/2023/01/Fish-Counting-and-Population-Monitoring-with-YOLOv3-OpenCV.gif">https://viso.ai/wp-content/uploads/2023/01/Fish-Counting-and-Population-Monitoring-with-YOLOv3-OpenCV.gif</a>. Accessed: 2025-03-07.</h4>
