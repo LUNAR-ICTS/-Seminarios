@@ -279,7 +279,7 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 <img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/candy-roboflow-transcode.gif?raw=true"/> 
 <img height="250" src="https://www.cognex.com/library/media/intro-topics/intro-to-machine-vision/feb2024-gateway/machine-vision-in-action-gif.gif?h=400&w=800&la=en&hash=1D9987D73CF09F78F72C8AD97AB3384B"/> 
 
-<em><b>Vídeo 6:</b> Contagem de doces em uma fáblica[<a href="roboflow-ref">3</a>]. Detecção de peças defeituosas na linha de produção[<a href="#cognex2025-machinevision-ref">14</a>].</em>
+<em><b>Vídeo 6:</b> Contagem de doces em uma fáblica[<a href="#roboflow-ref">3</a>]. Detecção de peças defeituosas na linha de produção[<a href="#cognex2025-machinevision-ref">14</a>].</em>
 
 </div>
 
@@ -289,14 +289,51 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 <img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fish-Counting-and-Population-Monitoring-with-YOLOv3-OpenCV.gif?raw=true"/> 
 <img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/agro.gif?raw=true"/> 
 
-<em><b>Vídeo 6:</b> Contagem de peixes[<a href="fish-counting-yolov3-ref">15</a>]. Detecção de pragas em plantações[<a href="roboflow-ref">3</a>].</em>
+<em><b>Vídeo 7:</b> Contagem de peixes[<a href="f#ish-counting-yolov3-ref">15</a>]. Detecção de pragas em plantações[<a href="#roboflow-ref">3</a>].</em>
 
 </div>
 
 ## 7.5 - Saúde
-## 7.6 - Civil
+A **Visão Computacional na Saúde** é amplamente utilizada na análise de exames de imagem, como **radiografias, tomografias e ressonâncias**, auxiliando no diagnóstico de doenças com alta precisão. Além disso, na **fisioterapia**, modelos de *pose estimation* monitoram movimentos em tempo real, otimizando a recuperação de pacientes com lesões musculoesqueléticas ou neurológicas.
+
+<div style="display: inline_block" align="center">
+<img height="250" src="https://framerusercontent.com/images/puTTHugTLtGwYklcW2yIM3KI48.jpg?scale-down-to=512"/> 
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/fisioterapia.gif?raw=true"/> 
+
+<em><b>Figura 13 e Vídeo 8:</b> Dataset de exames de COVID 19[<a href="#v7labs2020-covid19-ref">16</a>]. YOLO Poses aplicado à fisioterapia[<a href="#samkitjain-physiopose-ref">3</a>].</em>
+
+</div>
+
+## 7.6 - Civil, Petróleo e Gás
+
+<div style="display: inline_block" align="center">
+<img height="250" src="https://cdn.prod.website-files.com/659a7d409917def0560ba6c4/6610067fff94bc7320cff4b9_people%20detection.gif"/> 
+<img height="250" src="https://visionplatform.ai/wp-content/uploads/2025/02/Scherm%C2%ADafbeelding-2025-02-13-om-15.26.17.png"/> 
+
+<em><b>Vídeo 9 e Figura 14:</b> Deteção de estado de válculas[<a href="#energy-robotics-ai-skills-ref">18</a>]. Detecção do uso de EPI[<a href="#visionplatform2024-epi-ref">3</a>].</em>
+
+</div>
+
 ## 7.7 - Acessibilidade
+
+<div style="display: inline_block" align="center">
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/hands.gif?raw=true"/> 
+<img height="250" src="https://visionplatform.ai/wp-content/uploads/2025/02/Scherm%C2%ADafbeelding-2025-02-13-om-15.26.17.png"/> 
+
+<em><b>Vídeo 10 e Figura 15:</b> Reconhecimento de sinais de mão[<a href="#weforum-hand-tracking-algorithm-ref">20</a>]. Ideia de óculos para auxiliar pessoas com deficiência visual[<a href="#tapu2013-computervision-ref">21</a>].</em>
+
+</div>
+
 ## 7.8 - Segurança e Estética
+
+<div style="display: inline_block" align="center">
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/landmarks.png?raw=true"/> 
+
+
+<em><b>Vídeo 16:</b> Reconhecimento de landmarks no rosto (YOLO não utilizado nessa detecção de pontos). [<a href="#guo2019-pfld-ref">22</a>]</em>
+
+</div>
+
 # 8 - Principal Concorrente do YOLO
 # 9 - Referências
 <h4 id="1-mojang-ref">[1] Mojang Studios, "Mojang Studios Official Website," [Online]. Available: <a href="https://www.minecraft.net/">https://www.minecraft.net/</a>. Accessed: 2025-03-06.</h4>
@@ -331,3 +368,17 @@ Accessed: 2025-03-06.</h4>
 <h4 id="cognex2025-machinevision-ref">[14] Cognex Corporation, "What is Machine Vision," 2025. [Online]. Available: <a href="https://www.cognex.com/what-is/machine-vision">https://www.cognex.com/what-is/machine-vision</a>. Accessed: 2025-03-07.</h4>
 
 <h4 id="fish-counting-yolov3-ref">[15] "Fish Counting and Population Monitoring with YOLOv3 OpenCV," Viso.ai, Jan. 2023. [Online]. Available: <a href="https://viso.ai/wp-content/uploads/2023/01/Fish-Counting-and-Population-Monitoring-with-YOLOv3-OpenCV.gif">https://viso.ai/wp-content/uploads/2023/01/Fish-Counting-and-Population-Monitoring-with-YOLOv3-OpenCV.gif</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="v7labs2020-covid19-ref">[16] V7 Labs and CloudFactory, "Annotated Dataset to Aid COVID-19 Research," 2020. [Online]. Available: <a href="https://www.v7labs.com/news/v7-labs-cloudfactory-release-annotated-x-ray-dataset-to-aid-in-covid-19-research">https://www.v7labs.com/news/v7-labs-cloudfactory-release-annotated-x-ray-dataset-to-aid-in-covid-19-research</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="samkitjain-physiopose-ref">[17] Samkit Jain, "Physio Pose: A virtual physiotherapy assistant," Medium. [Online]. Available: <a href="https://medium.com/@_samkitjain/physio-pose-a-virtual-physiotherapy-assistant-7d1c17db3159">https://medium.com/@_samkitjain/physio-pose-a-virtual-physiotherapy-assistant-7d1c17db3159</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="energy-robotics-ai-skills-ref">[18] Energy Robotics, "AI Skills for Robotic Inspection Software," [Online]. Available: <a href="https://www.energy-robotics.com/robotic-inspection-software/ai-skills">https://www.energy-robotics.com/robotic-inspection-software/ai-skills</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="visionplatform2024-epi-ref">[19] VisionPlatform.ai, "Detecção de EPI," 2024. [Online]. Available: <a href="https://visionplatform.ai/pt/deteccao-de-epi/">https://visionplatform.ai/pt/deteccao-de-epi/</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="weforum-hand-tracking-algorithm-ref">[20] Devin Coldewey, "This hand-tracking algorithm could lead to sign language recognition," World Economic Forum, Aug. 20, 2019. [Online]. Available: <a href="https://www.weforum.org/stories/2019/08/this-hand-tracking-algorithm-could-lead-to-sign-language-recognition/">https://www.weforum.org/stories/2019/08/this-hand-tracking-algorithm-could-lead-to-sign-language-recognition/</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="tapu2013-computervision-ref">[21] Ruxandra Tapu, Bogdan Cosmin Mocanu, and Titus B. Zaharia, "A computer vision system that ensure the autonomous navigation of blind people," 2013 E-Health and Bioengineering Conference (EHB), 2013, pp. 1-4. [Online]. Available: <a href="https://ieeexplore.ieee.org/document/6707267/">https://ieeexplore.ieee.org/document/6707267/</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="guo2019-pfld-ref">[22] Xiaojie Guo, Siyuan Li, Jinke Yu, Jiawan Zhang, Jiayi Ma, Lin Ma, Wei Liu, and Haibin Ling, "PFLD: A Practical Facial Landmark Detector," 2019. [Online]. Available: <a href="https://arxiv.org/abs/1902.10859">https://arxiv.org/abs/1902.10859</a>. Accessed: 2025-03-07.</h4>
