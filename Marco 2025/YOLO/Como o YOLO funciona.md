@@ -163,8 +163,8 @@ O [COCO Dataset](https://cocodataset.org/#home) (_Common Objects in Context_) fo
 ## 4.1 - _Output_
 
 
-<div style="display: inline_block" align="center">
-<img id="fig9" height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig8.png?raw=true"/> 
+<div id="fig9" style="display: inline_block" align="center">
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig8.png?raw=true"/> 
 
 <em><b>Figura 9:</b> Output simplificado da detecção. </em>
 
@@ -202,14 +202,14 @@ A técnica de *Anchor Boxes* permite que um único *grid cell* detecte múltiplo
 <em><b>Figura 11:</b> Anchor boxes. </em>
 </div>
 
-<p>Assim como na <a href="fig9">Figura 9</a>, o *Output* (ŷ) retorna os mesmos dados da *Bounding box*. Contudo, ele vai retornar esses dados para cada Bounding box como mostrado no exemplo da <a href="fig12">Figura 12</a>.</p>
+<p>Assim como na <a href="fig9">Figura 9</a>, o <I>Output</I> (ŷ) retorna os mesmos dados da <I>Bounding box</I>. Contudo, ele vai retornar esses dados para cada Bounding box como mostrado no exemplo da <a href="fig12">Figura 12</a>.</p>
 
 Modelos de detecção mais eficientes podem dividir as imagens em muito mais células, possuir dezenas de *Ancher boxes* diferentes e possuir centenas de classes de objetos.
 
 
 
-<div style="display: inline_block" align="center">
-<img id="fig12" height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig12.png?raw=true"/> 
+<div id="fig12" style="display: inline_block" align="center">
+<img height="600cm" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Fig12.png?raw=true"/> 
 
 <em><b>Figura 12:</b> Exemplo de output com mais de uma Anchor boxes. </em>
 
