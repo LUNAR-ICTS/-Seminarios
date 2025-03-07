@@ -1,0 +1,72 @@
+import cv2
+from ultralytics import YOLO
+import os
+
+# Função para obter o nome do arquivo, extensão e diretório
+def get_filename_and_extension(image_path):
+    directory = os.path.dirname(image_path)
+    filename, extension = os.path.splitext(os.path.basename(image_path))
+    return filename, extension, directory + "\\"
+
+# Inicializa o modelo YOLO
+model = YOLO("yolo11x.pt")
+
+# Exibe todas as classes disponíveis no modelo
+print("Classes disponíveis no modelo YOLO:")
+for class_id, label in model.names.items():
+    print(f"ID: {class_id}, Label: {label}")
+
+# Caminho da imagem a ser processada
+image_path = r"Marco 2025\YOLO\assets\img\cats\image7.jpg"  # Substitua pelo caminho da imagem
+
+# Lê a imagem
+img = cv2.imread(image_path)
+
+# Processa a imagem com o modelo YOLO
+results = model(img)
+
+# Variáveis para armazenar as duas melhores detecções
+best_bbox = None
+second_best_bbox = None
+
+# Percorre os resultados
+for result in results:
+    boxes = result.boxes.xywh  # Coordenadas (x, y, largura, altura)
+    confs = result.boxes.conf  # Confiança das detecções
+    cls = result.boxes.cls  # Classes detectadas
+    
+    # Ordena as detecções pela maior confiança
+    sorted_indices = sorted(range(len(confs)), key=lambda i: confs[i], reverse=True)
+
+    # Obtém as duas melhores bounding boxes
+    if len(sorted_indices) > 0:
+        i = sorted_indices[0]
+        best_bbox = {
+            "Pc": float(confs[i]),
+            "bx": int(boxes[i][0]),
+            "by": int(boxes[i][1]),
+            "bw": int(boxes[i][2]),
+            "bh": int(boxes[i][3]),
+            "c14": 1 if int(cls[i]) == 14 else 0,
+            "c15": 1 if int(cls[i]) == 15 else 0,
+            "c32": 1 if int(cls[i]) == 32 else 0
+        }
+
+    if len(sorted_indices) > 1:
+        i = sorted_indices[1]
+        second_best_bbox = {
+            "Pc": float(confs[i]),
+            "bx": int(boxes[i][0]),
+            "by": int(boxes[i][1]),
+            "bw": int(boxes[i][2]),
+            "bh": int(boxes[i][3]),
+            "c14": 1 if int(cls[i]) == 14 else 0,
+            "c15": 1 if int(cls[i]) == 15 else 0,
+            "c32": 1 if int(cls[i]) == 32 else 0
+        }
+
+# Exibe os resultados
+if best_bbox:
+    print("Melhor Bounding Box (Vermelha):", best_bbox)
+if second_best_bbox:
+    print("Segunda Melhor Bounding Box (Azul):", second_best_bbox)
