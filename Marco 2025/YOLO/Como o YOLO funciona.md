@@ -254,14 +254,22 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 # 7 - Outras aplicações do YOLO
 ## 7.1 - Automóveis 
 
+<div style="display: inline_block" align="center">
+<img height="250" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/8f2826-80f-051b-177b-5ff744de085c_ezgif.com-gif-maker_2_.gif"/> 
+ 
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/car1.gif?raw=true"/> 
 
+<em><b>Vídeo 4:</b> Uso de Visão Computacional aplicado para veículos autônomos. [<a href="#car1">10</a>, <a href="#car2">11</a>]</em>
 
-## 7.2 - Esportes
+</div>
 
-<div id="fig12" style="display: inline_block" align="center">
-<img height="400" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Rebeca_poses_medium.gif?raw=true"/> 
+## 7.2 - Esportes e Entretenimento
 
-<em><b>Vídeo 5:</b> YOLOv11 Poses aplicado no vídeo da Rebeca Andrade. [<a href="#Rebeca">11</a>]</em>
+<div style="display: inline_block" align="center">
+<img height="250" src="https://github.com/LUNAR-ICTS/-Seminarios/blob/main/Marco%202025/YOLO/assets/img/Rebeca_poses_medium.gif?raw=true"/> 
+<img height="250" src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*WTI0UvukIjVKCn24z-GrFQ.gif"/> 
+
+<em><b>Vídeo 5:</b> YOLOv11 Poses aplicado no vídeo da Rebeca Andrade[<a href="#Rebeca">12</a>]. Poses usado de maneira gráfica e 3D[<a href="#poses2">13</a>].</em>
 
 </div>
 
@@ -270,9 +278,8 @@ YOLO11 é uma estrutura de IA que suporta múltiplas tarefas de visão computaci
 ## 7.5 - Agro
 ## 7.6 - Saúde
 ## 7.7 - Civil
-## 7.8 - Entretenimento
-## 7.9 - Acessibilidade
-## 7.10 - Estética
+## 7.8 - Acessibilidade
+## 7.9 - Segurança e Estética
 # 8 - Principal Concorrente do YOLO
 # 9 - Referências
 <h4 id="1-mojang-ref">[1] Mojang Studios, "Mojang Studios Official Website," [Online]. Available: <a href="https://www.minecraft.net/">https://www.minecraft.net/</a>. Accessed: 2025-03-06.</h4>
@@ -295,8 +302,13 @@ Accessed: 2025-03-06.</h4>
 <h4 id="girshick2015-fastrcnn-ref">[8] Ross Girshick, "Fast R-CNN," 2015. [Online]. Available: <a href="https://arxiv.org/abs/1504.08083">https://arxiv.org/abs/1504.08083</a>. Accessed: 2025-03-07.
 
 <h4 id="ren2016-fasterrcnn-ref">[9] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun, "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks," 2016. [Online]. Available: <a href="https://arxiv.org/abs/1506.01497">https://arxiv.org/abs/1506.01497</a>. Accessed: 2025-03-07.</h4>
-<h4 id="Car_vision">[10] </h4>
 
-<h4 id="Rebeca">[11] Olympics Gymnastics, "Rebeca Andrade's GOLD 🥇✨medal floor routine | Music Monday," YouTube, Sep. 9, 2024. [Online]. Available: <a href="https://www.youtube.com/watch?v=xXKM8ThtYOE">https://www.youtube.com/watch?v=xXKM8ThtYOE</a>. Accessed: Mar. 7, 2025.</h4>
+<h4 id="car1">[10] Medium Ethan, "Autonomous Driving: Object Detection on the Raspberry Pi 4,"  [Online]. Available: <a href="https://medium.com/analytics-vidhya/autonomous-driving-object-detection-on-the-raspberry-pi-4-175bba51d5b4">https://medium.com/analytics-vidhya/autonomous-driving-object-detection-on-the-raspberry-pi-4-175bba51d5b4</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="car2">[11] Augmented Startups, "Object Detection in 2023: The Definitive Guide," Apr. 18, 2023. [Online]. Available: <a href="https://www.augmentedstartups.com/blog/object-detection-in-2023-the-definitive-guide">https://www.augmentedstartups.com/blog/object-detection-in-2023-the-definitive-guide</a>. Accessed: 2025-03-07.</h4>
+
+<h4 id="Rebeca">[12] Olympics Gymnastics, "Rebeca Andrade's GOLD 🥇✨medal floor routine | Music Monday," YouTube, Sep. 9, 2024. [Online]. Available: <a href="https://www.youtube.com/watch?v=xXKM8ThtYOE">https://www.youtube.com/watch?v=xXKM8ThtYOE</a>. Accessed: Mar. 7, 2025.</h4>
+
+<h4 id="poses2">[13] Sree Anantha Kannan, "Full-body tracking," Medium, Aug. 2021. [Online]. Available: <a href="https://medium.com/@sreeananthakannan/full-body-tracking-c7c4cf68bb9d">https://medium.com/@sreeananthakannan/full-body-tracking-c7c4cf68bb9d</a>. Accessed: 2025-03-07.</h4>
 
 
